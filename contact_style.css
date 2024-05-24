@@ -1,0 +1,162 @@
+* {
+  font-family: "Albert Sans", sans-serif;
+}
+
+.contact-banner h1 {
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contact-banner {
+  background-color: rgb(252,245,240);
+  padding: 3.5rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  /* Center the columns horizontally */
+  align-items: flex-start;
+  /* Align the columns at the top */
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  margin: 0 -10px;
+  /* Negative margin to counteract the padding */
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+  /* Add some margin between columns */
+  padding: 20px;
+  /* Add padding inside each column */
+}
+
+.column h2 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
+  text-align: left;
+}
+
+h4 {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: rgb(84, 84, 84);
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-column {
+  flex: 1;
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+textarea {
+  flex: 1;
+  padding: 10px;
+  min-height: 235px;
+  resize: none;
+
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 15px 10px;
+  border: 0;
+}
+
+button:hover {
+  background-color: rgb(84, 84, 84);
+  transition: .3s ease-in-out;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: left;
+}
+
+.social-media-icons div {
+  margin-top: 25px;
+}
+
+.social-media-icons i {
+  color: #000000;
+  /* Adjust icon color */
+  font-size: 20px;
+  /* Adjust icon size */
+  text-decoration: none;
+  /* Remove underline */
+  transition: color 0.3s;
+  /* Add transition effect */
+}
+
+.social-media-icons .fa-facebook:hover {
+  color: #007bff;
+  /* Change color on hover */
+}
+
+.social-media-icons .fa-twitter:hover {
+  color: #969696;
+  /* Change color on hover */
+}
+
+.social-media-icons .fa-instagram:hover {
+  color: #ff4a8f;
+  /* Change color on hover */
+}
+
+.social-media-icons .fa-tiktok:hover {
+  color: #ff4af6;
+  /* Change color on hover */
+}
+
+.social-media-icons .fa-pinterest:hover {
+  color: #fa0000;
+  /* Change color on hover */
+}
+
+
+
+::placeholder {
+  color: #999;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  /* Adjust padding */
+  border: 1px solid #ccc;
+  /* Adjust border style */
+  border-radius: 5px;
+  /* Adjust border radius */
+  width: 100%;
+  box-sizing: border-box;
+  /* Include padding and border in the element's total width and height */
+}
+

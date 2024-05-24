@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="flickity.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <title>Ecomus</title>
+</head>
+
+<body>
+
+    <header class="upper-header">
+        <div class="left-section">
+            <div class="currency"><a href="#"><img src="assets/us.svg" alt="flag"> USD &#129171;</a></div>
+            <div class="language"><a href="#">English &#129171;</a></div>
+            <div class="menu-icon">
+                <button class="burger-menu" onclick="toggleNav()"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="assets/logo.svg" alt="Ecomus Logo">
+        </div>
+        <div class="right-section">
+            <div class="search"><i class="fas fa-search"></i></div>
+            <div class="account"><a href="#"><i class="fas fa-user"></i></a></div>
+            <div class="heart"><a href="#"><i class="fas fa-heart"></i></a></div>
+            <div class="cart"><a href="#"><i class="fas fa-shopping-bag"></i></a></div>
+        </div>
+    </header>
+    <hr>
+
+    <header class="lower-header">
+        <nav class="main-nav" id="main-nav">
+            <ul>
+                <li><a href="index.html">Home &#129171;</a></li>
+                <li><a href="#">Shop &#129171;</a></li>
+                <li><a href="#">Products &#129171;</a></li>
+                <li><a href="#">Pages &#129171;</a></li>
+                <li><a href="#">Blog &#129171;</a></li>
+                <li><a href="#">Buy Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- slider hero -->
+    <section class="hero">
+        <div class="carousel" data-flickity='{ "freeScroll": true }'>
+            <div class="carousel-cell">
+                <p>SALE UP TO 30% OFF</p>
+                <h2>Premium eco tech <br> accessories</h2>
+                <div>
+                    <button class="hero-button">Phone case ></button>
+                    <button class="hero-button">Accessories ></button>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <p>SALE UP TO 30% OFF</p>
+                <h2>End of Season Sale</h2>
+                <div>
+                    <button class="hero-button">Phone case ></button>
+                    <button class="hero-button">Accessories ></button>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <p>SALE UP TO 30% OFF</p>
+                <h2>Air buds accessories</h2>
+                <div>
+                    <button class="hero-button">Phone case ></button>
+                    <button class="hero-button">Accessories ></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- collections -->
+    <section class="for-collections">
+        <div>
+            <h1 class="shop"><img src="assets/slider.JPG" alt=""> SHOP BY CATEGORIES </h1>
+        </div>
+        <div class="container">
+            <div class="collections">
+                <div class="collections-1"><img src="assets/col 1.webp" alt="col_1"></div>
+                <div class="collections-2"><img src="assets/col 2.webp" alt="col_2"></div>
+                <div class="collections-3"><img src="assets/col 3.webp" alt="col_3"></div>
+                <div class="view">Discover <br> all new items </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- two columns section-->
+    <section class="two-columns">
+        <div class="row row1">
+            <div class="column col-text">
+                <h1>Bold <br>Collection</h1>
+                <p>Ultra-protective cases engineered for your boldest behavior. Dual- <br>
+                    layer protection a 3mm raised front lip.</p>
+                <button>Shop Collection</button>
+            </div>
+            <div class="column col-img">
+                <img src="assets/section 2.webp" alt="Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- new arrivals -->
+    <h2 class="new">New Arrivals</h2>
+    <div class="product-container">
+        <div class="box">
+            <div class="product">
+                <img src="assets/case 1.jpg" alt="Geometric iPhone Case">
+            </div>
+            <h3>Almond Latte - iPhone Case</h3>
+            <p class="price">$30.00</p>
+        </div>
+        <div class="box">
+            <div class="product">
+                <img src="assets/case 2.jpg" alt="Rose iPhone Case">
+            </div>
+            <h3>Full Glam - iPhone Case</h3>
+            <p class="price">$30.00</p>
+        </div>
+        <div class="box">
+            <div class="product">
+                <img src="assets/case 3.jpg" alt="Cherry iPhone Case">
+            </div>
+            <h3>Emerlad Pool - iPhone Case</h3>
+            <p class="price">$30.00</p>
+        </div class="box">
+
+        <div>
+            <div class="product">
+                <img src="assets/case 4.jpg" alt="Marble iPhone Case">
+            </div>
+            <h3>Femme Fatale - Elegant iPhone Case</h3>
+            <p class="price">$30.00</p>
+        </div>
+    </div>
+
+    <!-- gallery -->
+    <section>
+        <div class="grid-container">
+            <div class="item_1">
+                <img src="assets/g1.jpg" alt="">
+                <div class="for-button">
+                    <button>Flower Cases</button>
+                </div>
+            </div>
+            <div>
+            <div class="item_2">
+                <img src="assets/g2.jpg" alt="">
+                <div class="for-button">
+                    <button>Mountain Cases</button>
+                </div>
+            </div>
+            <div class="item_3">
+                <img src="assets/g3.jpg" alt="">
+                <div class="for-button">
+                    <button>Animal Cases</button>
+                </div>
+            </div> 
+            </div> 
+            <div class="item_4">
+                <img src="assets/g4.jpg" alt="">
+                <div class="for-button">
+                    <button>Clear Cases</button>
+                </div>
+            </div>
+          </div>
+    </section>
+
+
+    <!-- trending -->
+    <h2 class="trend">Trending Now</h2>
+    <div class="product-container">
+        <div>
+            <div class="product">
+                <img src="assets/case 5.jpg" alt="Geometric iPhone Case">
+            </div>
+            <h3>Trouble - iPhone Case</h3>
+            <p class="price">$30.00</p>
+        </div>
+
+        <div>
+            <div class="product">
+                <img src="assets/case 4.jpg" alt="Rose iPhone Case">
+            </div>
+            <h3>Femme Fatale - iPhone Case</h3>
+            <p class="price">$30.00</p>
+        </div>
+
+        <div>
+            <div class="product">
+                <img src="assets/case 7.jpg" alt="Cherry iPhone Case">
+            </div>
+            <h3>Cherrybomb - iPhone Case</h3>
+            <p class="price">$30.00</p>
+        </div>
+
+        <div>
+            <div class="product">
+                <img src="assets/case 3.jpg" alt="Marble iPhone Case">
+            </div>
+            <h3>Emerald Pool - Elegant iPhone Case</h3>
+            <p class="price">$30.00</p>
+        </div>
+    </div>
+
+    <!-- two columns section -->
+    <section class="two-columns">
+        <div class="row row2">
+            <div class="column col-img">
+                <img src="assets/section 3.webp" alt="Image">
+            </div>
+            <div class="column col-text2">
+                <h1>Classic <br>Collection</h1>
+                <p>Ultra-protective cases engineered for your boldest behavior. Dual- <br>
+                    layer protection a 3mm raised front lip.</p>
+                <button>Shop Collection</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- cards -->
+    <section class="cards">
+        <div class="row three">
+            <div class="column">
+                <div class="card-1">
+                    <img src="assets/icons8-wave-50.png" alt="">
+                    <h2>Protect Our Oceans</h2>
+                    <p>Pela donates a % of every sale to Ocean Cleanup
+                        and Preservation Initiatives</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card-2">
+                    <img src="assets/icons8-plant-48.png" alt="">
+                    <h2>Inspired by Plants</h2>
+                    <p>Made from flax shive and a plant based biopolymer
+                        create the base for our compostable cases.</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card-3">
+                    <img src="assets/icons8-smile-50.png" alt="">
+                    <h2>100% Happiness Guarantee</h2>
+                    <p>Enjoy free shipping worldwide, fast and secure checkout,
+                        and hassle-free exchange and returns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial -->
+    <section class="testimonial-section">
+        <div class="row testimonial">
+            <div class="column first">
+                <div class="row firstpart">
+                    <div class="column">
+                        <img src="assets/qoutation.JPG" alt="">
+                    </div>
+                    <div class="column">
+                        <h3 class="testimonial-title">OUR CUSTOMERS' RAVE REVIEWS</h3>
+                    </div>
+                    <div class="column">
+                        <div class="stars">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="testimonial-text">
+                            <p>"I have been shopping with this web fashion site for over a year now and I can
+                                confidently say it
+                                is
+                                the best online fashion site out there. The shipping is always fast and the customer
+                                service
+                                team is
+                                friendly and helpful. I highly recommend this site to anyone looking for affordable
+                                clothing."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p class="testimonial-author">Robert Smith</p>
+                    </div>
+                    <div class="column">
+                        <p class="testimonial-purchase">Purchase Item: 3-in-1 Wireless Charger with Official MagSafe
+                            Charging
+                            15W
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column second">
+            <div class="testimonial-image">
+                <img src="assets/t1.JPG" alt="Testimonial Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- lower gallery -->
+    <section>
+        <h2 class="ecocase">Photos from our #ecocase</h2>
+        <div id="myDIV">
+            <div class="item1">
+                <img src="assets/big.jpg" alt="">
+            </div>
+            <div class="item2">
+                <img src="assets/sm1.jpg" alt="">
+            </div>
+            <div class="item3">
+                <img src="assets/sm2.jpg" alt="">
+            </div>
+            <div class="item4">
+                <img src="assets/sm3.jpg" alt="">
+            </div>
+            <div class="item5">
+                <img src="assets/sm4.jpg" alt="">
+            </div>
+            <div class="item6">
+                <img src="assets/sm5.jpg" alt="">
+            </div>
+            <div class="item7">
+                <img src="assets/sm6.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column footer-column1">
+                <img src="assets/logo.svg" alt="Logo" width="100" height="50">
+                <p>Address: 1234 Fashion Street, Suite 567,<br>New York, NY</p>
+                <p class="email">Email: <a href="mailto:info@fashionshop.com"><b>info@fashionshop.com</b></a></p>
+                <p>Phone: <b>(212)555-1234</b></p>
+                <p class="direction"><a href="contact.html"><u>Get direction&#8599;</u></a></p>
+                <div class="social-media-icons">
+                    <div><a href="#"><i class="fab fa-facebook"></i></a></div>
+                    <div><a href="#"><i class="fab fa-twitter"></i></a></div>
+                    <div><a href="#"><i class="fab fa-instagram"></i></a></div>
+                    <div><a href="#"><i class="fab fa-tiktok"></i></a></div>
+                    <div><a href="#"><i class="fab fa-pinterest"></i></a></div>
+                </div>
+
+            </div>
+
+            <div class="footer-column footer-column2">
+                <h3><b>Help</b></h3>
+                <p><a href="privacy.html">Privacy Policy</a></p>
+                <p><a href="return.html">Returns + Exchanges</a></p>
+                <p><a href="shipping.html">Shipping</a></p>
+                <p><a href="orders.html">Orders + Payments</a></p>
+                <p><a href="FAQ.html">FAQ’s</a></p>
+                <p><a href="compare.html">Compare</a></p>
+                <p><a href="wishlist.html">My Wishlist</a></p>
+            </div>
+
+            <div class="footer-column footer-column3">
+                <h3><b>About Us</b></h3>
+                <p><a href="about.html">Our Story</a></p>
+                <p><a href="store.html">Visit Our Store</a></p>
+                <p><a href="contact.html">Contact Us</a></p>
+                <p><a href="account.html">Account</a></p>
+            </div>
+
+            <div class="footer-column footer-column4">
+                <h3><b>Sign Up for Email</b></h3>
+                <p>Sign up to get first dibs on new arrivals, sales, exclusive content, events and more!</p>
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Enter email address">
+                    <button type="button">Subscribe &#8599;</button>
+                </div>
+                <div class="LangCur">
+                    <div class="currency"><a href="#"><img src="assets/us.svg" alt="flag"> USD &#129171;</a></div>
+                    <div class="language"><a href="#">English &#129171;</a></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="bottom-footer">
+            <div class="copyright">
+                <small>© 2024 Ecomus . All rights reserved.</small>
+            </div>
+            <div class="payment">
+                <div><a href="#"><img src="assets/visa.svg" alt=""></a></div>
+                <div><a href="#"><img src="assets/paypal.svg" alt=""></a></div>
+                <div><a href="#"><img src="assets/master.svg" alt=""></a></div>
+                <div><a href="#"><img src="assets/amex.svg" alt=""></a></div>
+                <div><a href="#"><img src="assets/diners.svg" alt=""></a></div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        function toggleNav() {
+            var nav = document.querySelector(".main-nav");
+            nav.classList.toggle("hide");
+        }
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+
+</body>
+
+</html>
